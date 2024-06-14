@@ -1,11 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Reflection.PortableExecutable;
 using Microsoft.EntityFrameworkCore;
-
 namespace kolos2.Models;
 
-[Table("Character_Title")]
+[Table("character_titles")]
 [PrimaryKey(nameof(IdCharacter), nameof(IdTitle))]
 public class Character_title
 {

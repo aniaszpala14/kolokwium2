@@ -1,5 +1,4 @@
 ﻿namespace kolos2.DTOs;
-
 public class CharacterDTO
 {
     public string FirstName { get; set; }
@@ -11,7 +10,7 @@ public class CharacterDTO
 }
 
 public class BackpackItemDTO
-{
+{ 
     public string ItemName { get; set; }
     public int ItemWeight { get; set; }
     public int Amount { get; set; }
@@ -25,7 +24,8 @@ public class TitleDTO
 
 public class AddToBackpackDTO
 {
-    public int IdCharacter { get; set; }
-    public int IdItem { get; set; }
     public int Amount { get; set; }
+    public int IdItem { get; set; }
+    public int IdCharacter { get; set; }
+
 }
