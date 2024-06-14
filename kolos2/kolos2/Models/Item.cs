@@ -1,7 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
-
+using System.ComponentModel.DataAnnotations.Schema;
 namespace kolos2.Models;
 
+[Table("items")]
 public class Item
 {
     [Key]

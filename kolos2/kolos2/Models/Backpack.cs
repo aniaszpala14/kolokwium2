@@ -1,9 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
-
 namespace kolos2.Models;
 
-[Table("Backpack")]
+[Table("backpacks")]
 [PrimaryKey(nameof(IdCharacter), nameof(IdItem))]
 public class Backpack
 {

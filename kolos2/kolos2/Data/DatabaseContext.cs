@@ -1,8 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using kolos2.Models;
-
 namespace kolos2.Data;
-
 public class DatabaseContext : DbContext
 {
     protected DatabaseContext()
